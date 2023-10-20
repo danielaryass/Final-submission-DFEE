@@ -26,6 +26,7 @@ const createRestoDetailTemplate = (resto) => `
     <img
       src="${CONFIG.MEDIUM_IMAGE_URL + resto.pictureId}"
       alt="${resto.name}"
+      crossorigin="anonymous"
     />
     <p class="rating_resto">Rating ⭐ ${resto.rating}</p>
   </div>
