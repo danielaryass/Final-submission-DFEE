@@ -4,9 +4,10 @@ const createRestoCardTemplate = (resto) => `
 <article class="card" tabindex="0">
     <p class="location">${resto.city}</p>
     <img
-        src="${CONFIG.SMALL_IMAGE_URL + resto.pictureId}"
+        data-src="${CONFIG.SMALL_IMAGE_URL + resto.pictureId}"
         alt="${resto.name}"
         class="card-image lazyload"
+        crossorigin="anonymous" 
     />
     <div class="card-text">
         <p>Rating ${resto.rating}</p>

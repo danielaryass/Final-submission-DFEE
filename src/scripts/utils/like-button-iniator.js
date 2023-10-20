@@ -29,11 +29,11 @@ const LikeButtonInitiator = {
     likeButton.addEventListener('click', async () => {
       await this._favoriteResto.putResto(this._resto);
       this._renderButton();
-      // sendNotiftoWebsocket({
-      //   title: 'New Favorite Resto',
-      //   body: `${this._resto.name} has been added to your favorite`,
-      //   image: this._resto.pictureId,
-      // });
+      sendNotiftoWebsocket({
+        title: 'New Favorite Resto',
+        body: `${this._resto.name} has been added to your favorite`,
+        image: this._resto.pictureId,
+      });
     });
   },
 

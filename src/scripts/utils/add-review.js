@@ -31,6 +31,7 @@ const addReview = async (url, name, review) => {
 
   const response = await RestoSource.postReview(data);
   if (response.error) {
+    // eslint-disable-next-line no-alert
     alert(response.message);
     return;
   }
