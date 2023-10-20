@@ -5,4 +5,5 @@
 
   [functions]
   directory = "netlify-functions"
+  [functions.command]
   command = "npm run sharp"
