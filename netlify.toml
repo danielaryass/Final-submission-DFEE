@@ -3,5 +3,6 @@
   functions = "functions"
   publish = "dist/"
 
-[build.environment]
-  command = "npm run sharp"
+[[functions]]
+  directory = "netlify-functions"
+  command = "sharp.handler"
