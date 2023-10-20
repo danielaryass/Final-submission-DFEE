@@ -2,9 +2,8 @@
   command = "npm run build"
   functions = "netlify-functions"
   publish = "dist/"
-  command = "npm run sharp"
 
   [functions]
   directory = "netlify-functions"
   [functions.command]
-  command = "sharp.handler"
+  command = "npm run sharp"
