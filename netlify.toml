@@ -3,6 +3,6 @@
   functions = "functions"
   publish = "dist/"
 
-[[functions]]
+[functions]
   directory = "netlify-functions"
   command = "sharp.handler"
