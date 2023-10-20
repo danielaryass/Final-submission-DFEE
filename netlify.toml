@@ -4,7 +4,4 @@
   publish = "dist/"
 
   [functions]
-
-    [functions.command]
   directory = "netlify-functions"
-  command = "sharp.handler"
