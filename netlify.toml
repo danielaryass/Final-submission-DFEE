@@ -4,4 +4,4 @@
   publish = "dist/"
 
 [build.environment]
-  SHARP_CMD = "npm run sharp"
+  command = "npm run sharp"
