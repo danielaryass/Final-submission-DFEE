@@ -1,3 +1,4 @@
+// netlify-functions/sharp.js
 const sharp = require('sharp');
 const fs = require('fs');
 const path = require('path');
