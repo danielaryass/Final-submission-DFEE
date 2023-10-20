@@ -10,7 +10,8 @@
     "lint": "eslint ./src",
     "serve": "http-server dist --port 9000",
     "e2e": "codeceptjs run --steps",
-    "sharp": "node sharp.js"
+    "sharp": "node sharp.js",
+    "prod" : "npm run build && npm run serve"
   },
   "keywords": [],
   "author": "your_name <your.email@domain.com>",
